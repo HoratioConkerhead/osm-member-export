@@ -1,0 +1,10 @@
+# Secrets: OSM client id/secret and login token
+osm_config.json
+.osm_token.json
+
+# Personal data and group-specific details
+exports/
+fields_available.txt
+*.csv
+
+__pycache__/
