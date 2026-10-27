@@ -1,5 +1,14 @@
 # OSM member export
 
+> [!WARNING]
+> **Not tested yet.** This has only been tested with made-up data and has never been run against a real OSM account.
+> OSM doesn't publish documentation for its API, so parts of this are based on community notes and may not work first time.
+>
+> - It is **read-only**: it only asks OSM for permission to read member data, and it refuses any request that would change anything.
+> - If something goes wrong, the most likely outcome is an error message, not a problem in OSM.
+> - Please start with `discover` (it shows field names only, no personal data) and report any errors before running `export`.
+> - Use at your own risk, and follow your Group's data protection rules for anything you download.
+
 Downloads the young people from every OSM section you can see into one spreadsheet (CSV, opens in Excel).
 
 ## One-off setup
